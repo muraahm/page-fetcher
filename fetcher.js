@@ -20,7 +20,7 @@ const fetcher = function (URL, localFile) {
               console.log('Downloaded and saved ' + body.length + ' bytes to ' + localFile);
             });
           } else {
-            console.log('tahnks!');
+            console.log('thanks!');
           }
           rl.close();
         });
